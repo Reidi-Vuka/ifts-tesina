@@ -58,39 +58,37 @@
                                         <div class="card-body">
                                             <h5 class="card-title text-gradient">Differenza tra SFTP & FTP</h5>
                                             <p class="card-text">
-                                                <span class="fw-bold">Sicurezza:</span>
-                                                FTP trasmette dati in chiaro, esponendo gli utenti a rischi di sicurezza
-                                                come le intercettazioni. SFTP cifra i dati utilizzando il protocollo
-                                                SSH,
-                                                offrendo una protezione significativamente superiore.
-                                                <span class="fw-bold">Porta di Connessione:</span>
-                                                FTP usa la porta 21 per i comandi e porte multiple casuali per il
-                                                trasferimento dei dati, complicando la configurazione di firewall. SFTP
-                                                impiega una singola porta, solitamente la 22, semplificando la gestione
-                                                della sicurezza di rete.
-
-                                                <span class="fw-bold">Funzioni e Comandi:</span>
-                                                Entrambi permettono la gestione di file e cartelle, ma SFTP aggiunge
-                                                funzionalità avanzate come la ripresa di trasferimenti interrotti,
-                                                operando
-                                                attraverso un canale sicuro.
-
-                                                <span class="fw-bold">Compatibilità con Firewall e NAT:</span>
-                                                FTP presenta difficoltà nella configurazione con firewall e NAT a causa
-                                                delle sue modalità di trasferimento attiva e passiva. SFTP è più
-                                                compatibile
-                                                con le configurazioni moderne di firewall grazie all'utilizzo di una
-                                                sola
-                                                connessione.
-
-                                                <span class="fw-bold">Uso in FileZilla:</span>
-                                                Configurare FTP in FileZilla richiede hostname, nome utente, password e
-                                                porta 21. SFTP richiede configurazioni simili, ma usa la porta 22 e
-                                                potrebbe
-                                                necessitare dell'importazione di chiavi SSH.
-
+                                                <span class="fw-bold">Sicurezza:</span> FTP trasmette dati in chiaro,
+                                                esponendo gli utenti a rischi di sicurezza come le intercettazioni. SFTP
+                                                cifra i dati utilizzando il protocollo SSH, offrendo una protezione
+                                                significativamente superiore.
                                             </p>
-
+                                            <p class="card-text">
+                                                <span class="fw-bold">Porta di Connessione:</span> FTP usa la porta 21
+                                                per i comandi e porte multiple casuali per il trasferimento dei dati,
+                                                complicando la configurazione di firewall. SFTP impiega una singola
+                                                porta, solitamente la 22, semplificando la gestione della sicurezza di
+                                                rete.
+                                            </p>
+                                            <p class="card-text">
+                                                <span class="fw-bold">Funzioni e Comandi:</span> Entrambi permettono la
+                                                gestione di file e cartelle, ma SFTP aggiunge funzionalità avanzate come
+                                                la ripresa di trasferimenti interrotti, operando attraverso un canale
+                                                sicuro.
+                                            </p>
+                                            <p class="card-text">
+                                                <span class="fw-bold">Compatibilità con Firewall e NAT:</span> FTP
+                                                presenta difficoltà nella configurazione con firewall e NAT a causa
+                                                delle sue modalità di trasferimento attiva e passiva. SFTP è più
+                                                compatibile con le configurazioni moderne di firewall grazie
+                                                all'utilizzo di una sola connessione.
+                                            </p>
+                                            <p class="card-text">
+                                                <span class="fw-bold">Uso in FileZilla:</span> Configurare FTP in
+                                                FileZilla richiede hostname, nome utente, password e porta 21. SFTP
+                                                richiede configurazioni simili, ma usa la porta 22 e potrebbe
+                                                necessitare dell'importazione di chiavi SSH.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -101,96 +99,15 @@
                                             alt="Image Description 2">
                                         <div class="card-body">
                                             <h5 class="card-title text-gradient">Connessione al server</h5>
-                                            <p class="card-text">In FileZilla, la distinzione tra la sezione dei file
-                                                del
-                                                sito locale e quella del server remoto aiuta a organizzare e gestire
-                                                efficacemente il trasferimento di file tra il tuo computer e il server
-                                                via
-                                                FTP. Mentre la sezione locale mostra il contenuto del tuo dispositivo,
-                                                la
-                                                sezione remota rappresenta i file sul server. Queste due aree facilitano
-                                                operazioni dirette come il caricamento e il download di file, oltre alla
-                                                gestione ordinaria dei file in entrambe le ubicazioni.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="card mb-3">
-                                        <img src="/assets/filezilla-4.png" class="card-img-top"
-                                            alt="Image Description 3">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-gradient">Avvio del server</h5>
                                             <p class="card-text">
-                                                <span class="fw-bold">Per avviare un server con FileZilla Server, segui
-                                                    questi passaggi:</span>
-                                                <span class="fw-bold">Installazione:</span> Scarica e installa FileZilla
-                                                Server dal sito ufficiale, configurando le opzioni desiderate durante
-                                                l'installazione.
-
-                                                <span class="fw-bold">Configurazione Iniziale:</span> Dopo
-                                                l'installazione,
-                                                avvia FileZilla Server e connettiti all'interfaccia di amministrazione
-                                                per
-                                                configurare le impostazioni del server. Qui puoi impostare la porta FTP,
-                                                configurare SSL/TLS per le connessioni sicure, e creare utenti e gruppi
-                                                con
-                                                accessi specifici.
-
-                                                <span class="fw-bold">Avvio del Server:</span> Utilizza l'interfaccia di
-                                                amministrazione per avviare o fermare il server. Una volta avviato, il
-                                                server ascolterà le connessioni in entrata sulla porta configurata.
-
-                                                <span class="fw-bold">Connessione Client:</span> I client possono
-                                                connettersi al server usando le credenziali fornite e iniziare a
-                                                trasferire
-                                                file.
-
-                                                <span class="fw-bold">Monitoraggio e Manutenzione:</span> Continua a
-                                                monitorare l'attività del server, gestisci gli utenti, e mantieni il
-                                                server
-                                                aggiornato attraverso l'interfaccia di amministrazione.
-
-                                                Questo processo fornisce un controllo completo sull'ambiente di hosting
-                                                e
-                                                sulle operazioni di file transfer, garantendo flessibilità e sicurezza
-                                                nella
-                                                gestione dei file.
-
+                                                In FileZilla, la distinzione tra la sezione dei file del sito locale e
+                                                quella del server remoto aiuta a organizzare e gestire efficacemente il
+                                                trasferimento di file tra il tuo computer e il server via FTP. Mentre la
+                                                sezione locale mostra il contenuto del tuo dispositivo, la sezione
+                                                remota rappresenta i file sul server. Queste due aree facilitano
+                                                operazioni dirette come il caricamento e il download di file, oltre alla
+                                                gestione ordinaria dei file in entrambe le ubicazioni.
                                             </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="card mb-3">
-                                        <img src="/assets/filezilla-6.jpg" class="card-img-top"
-                                            alt="Image Description 4">
-                                        <div class="card-body">
-                                            <h5 class="card-title text-gradient">Funzionalità aggiuntive</h5>
-                                            <p class="card-text"><span class="fw-bold">FileZilla</span> è un client FTP
-                                                popolare compatibile con Windows che offre una serie di funzionalità
-                                                utili
-                                                per la gestione dei trasferimenti di file tra il computer locale e un
-                                                server
-                                                remoto. Ecco un riassunto delle principali funzionalità di FileZilla su
-                                                Windows:
-                                                <span class="fw-bold">Interfaccia Utente Intuitiva:</span> FileZilla
-                                                presenta un'interfaccia grafica chiara e facilmente navigabile, che
-                                                mostra
-                                                contemporaneamente i file locali e quelli del server, permettendo un
-                                                facile
-                                                drag-and-drop per il trasferimento dei file.
-
-                                                <span class="fw-bold">Supporto per FTP, FTPS e SFTP:</span> FileZilla
-                                                supporta diversi protocolli di trasferimento, inclusi FTP (File Transfer
-                                                Protocol), FTPS (FTP Secure), e SFTP (SSH File Transfer Protocol),
-                                                offrendo
-                                                flessibilità e sicurezza nelle connessioni al server.
-                                            </p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -198,12 +115,88 @@
                         </div>
 
 
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <img src="/assets/filezilla-4.png" class="card-img-top" alt="Image Description 3">
+                                <div class="card-body">
+                                    <h5 class="card-title text-gradient">Avvio del server</h5>
+                                    <p class="card-text">
+                                        <strong>Per avviare un server con FileZilla Server, segui questi
+                                            passaggi:</strong>
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Installazione:</strong> Scarica e installa FileZilla Server dal sito
+                                        ufficiale, configurando le opzioni desiderate durante l'installazione.
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Configurazione Iniziale:</strong> Dopo l'installazione, avvia FileZilla
+                                        Server e connettiti all'interfaccia di amministrazione per configurare le
+                                        impostazioni del server. Qui puoi impostare la porta FTP, configurare SSL/TLS
+                                        per le connessioni sicure, e creare utenti e gruppi con accessi specifici.
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Avvio del Server:</strong> Utilizza l'interfaccia di amministrazione per
+                                        avviare o fermare il server. Una volta avviato, il server ascolterà le
+                                        connessioni in entrata sulla porta configurata.
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Connessione Client:</strong> I client possono connettersi al server
+                                        usando le credenziali fornite e iniziare a trasferire file.
+                                    </p>
+                                    <p class="card-text">
+                                        <strong>Monitoraggio e Manutenzione:</strong> Continua a monitorare l'attività
+                                        del server, gestisci gli utenti, e mantieni il server aggiornato attraverso
+                                        l'interfaccia di amministrazione.
+                                    </p>
+                                    <p class="card-text">
+                                        Questo processo fornisce un controllo completo sull'ambiente di hosting e sulle
+                                        operazioni di file transfer, garantendo flessibilità e sicurezza nella gestione
+                                        dei file.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-                    </article>
+
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <img src="/assets/filezilla-6.jpg" class="card-img-top" alt="Image Description 4">
+                                <div class="card-body">
+                                    <h5 class="card-title text-gradient">Funzionalità aggiuntive</h5>
+                                    <p class="card-text"><span class="fw-bold">FileZilla</span> è un client FTP
+                                        popolare compatibile con Windows che offre una serie di funzionalità
+                                        utili
+                                        per la gestione dei trasferimenti di file tra il computer locale e un
+                                        server
+                                        remoto. Ecco un riassunto delle principali funzionalità di FileZilla su
+                                        Windows:
+                                        <span class="fw-bold">Interfaccia Utente Intuitiva:</span> FileZilla
+                                        presenta un'interfaccia grafica chiara e facilmente navigabile, che
+                                        mostra
+                                        contemporaneamente i file locali e quelli del server, permettendo un
+                                        facile
+                                        drag-and-drop per il trasferimento dei file.
+
+                                        <span class="fw-bold">Supporto per FTP, FTPS e SFTP:</span> FileZilla
+                                        supporta diversi protocolli di trasferimento, inclusi FTP (File Transfer
+                                        Protocol), FTPS (FTP Secure), e SFTP (SSH File Transfer Protocol),
+                                        offrendo
+                                        flessibilità e sicurezza nelle connessioni al server.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
                 </div>
-
-                </article>
             </div>
+
+
+
+            </article>
+        </div>
+
+        </article>
+        </div>
 
 
 
