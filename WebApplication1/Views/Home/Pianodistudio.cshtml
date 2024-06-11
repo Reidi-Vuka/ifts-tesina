@@ -1,0 +1,101 @@
+@{
+    Layout = "_Layout";
+}
+
+<main class="flex-shrink-0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary text-gradient" asp-controller="Home" asp-action="Index">Full
+                Stack Designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active text-white" asp-controller="Home"
+                            asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Pianodistudio">Piano di studio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Tecnologie">Tecnologie</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Progetti">Progetti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-dark py-5">
+        <div class="container px-5 my-custom-padding">
+            <div class="row gx-5 justify-content-center align-items-center">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1000">
+                    <img src="/assets/iubenda.png" class="img-fluid rounded shadow" alt="Illustrazione">
+                </div>
+                <div class="col-md-6 text-center">
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <h3 class="display-5 mb-5">
+                            <span class="text-gradient d-inline">Integrazione di Iubenda</span>
+                        </h3>
+                        <p class="title--color">
+                            Gestione del Consenso agli Altri Dati Personali: Permette di raccogliere e documentare il
+                            consenso per altre forme di raccolta dati, come iscrizioni a newsletter o form di contatto,
+                            assicurando che ogni trattamento di dati personali sia conforme alla legge.
+
+                        </p>
+                        <p class="title--color">Generazione di Policy di Privacy e Cookie: Iubenda permette di generare
+                            documenti come la policy di privacy e la cookie policy, che sono obbligatori per la maggior
+                            parte dei siti web che raccolgono dati personali. Queste politiche sono personalizzabili in
+                            base alle specifiche attività di raccolta dati del sito.
+
+                            Gestione del Consenso dei Cookie: Iubenda fornisce strumenti per creare banner di consenso
+                            ai cookie che rispettano le normative vigenti, assicurando che i visitatori del sito possano
+                            esprimere il loro consenso all'uso dei cookie in modo informato.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container px-5 my-custom-padding">
+            <div class="row gx-5 justify-content-center align-items-center">
+                <div class="col-md-6 text-center">
+                    <div class="text-center my-5">
+                        <h3 class="display-5 mb-5 "><span class="text-gradient d-inline">Integrazione di Google
+                                Analytics</span></h3>
+                        <p class="text-muted mb-4">Analisi del Traffico del Sito Web: Google Analytics raccoglie dati
+                            sul
+                            traffico del sito, come il numero di visite, le pagine visitate, il tempo speso sul sito e
+                            la frequenza di rimbalzo (quanto velocemente un visitatore lascia il sito dopo aver visto
+                            solo una pagina). Queste informazioni aiutano a capire quanto sia attraente e efficace il
+                            contenuto del sito.Analisi del Traffico del Sito Web: Google Analytics raccoglie dati sul
+                            traffico del sito, come il numero di visite, le pagine visitate, il tempo speso sul sito e
+                            la frequenza di rimbalzo (quanto velocemente un visitatore lascia il sito dopo aver visto
+                            solo una pagina).</p>
+                        <p class="text-muted">
+
+
+                            Comportamento degli Utenti: Analizza il comportamento degli utenti sul sito, quali sezioni
+                            visitano di più e quali interazioni effettuano (come clic su link o visualizzazioni di
+                            video). Questo consente di ottimizzare l'usabilità e l'interattività del sito.
+
+                            Analisi Demografica e degli Interessi: Offre dati demografici (età, sesso) e sugli interessi
+                            degli utenti, permettendo una segmentazione più accurata del pubblico e la creazione di
+                            campagne di marketing mirate.
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1200">
+                    <img src="/assets/analytics.png" class="img-fluid rounded shadow" alt="ASP.NET Core illustrazione">
+                </div>
+            </div>
+        </div>
+    </section>

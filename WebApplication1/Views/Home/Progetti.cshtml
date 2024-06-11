@@ -1,0 +1,257 @@
+@{
+    Layout = "_Layout";
+}
+<main class="flex-shrink-0">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary text-gradient" asp-controller="Home" asp-action="Index">Full
+                Stack Designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active text-white" asp-controller="Home"
+                            asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Pianodistudio">Piano di studio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Tecnologie">Tecnologie</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Progetti">Progetti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Sezione 1: Text a sinistra, Immagine a destra -->
+        <section class="bg-dark py-5">
+            <h3 class="display-5 fw-bolder mt-3 text-center mb-5"><span class="text-gradient d-inline">Progetti
+                    sviluppati durante lo stage</span></h3>
+
+
+            <div class="container px-5 my-custom-padding">
+                <div class="row gx-5 justify-content-center align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <h3 class=" mb-5 "><span class="text-gradient d-inline"> Sito
+                                    web CryptoRed</span></h3>
+                            <p class=" mb-4 title--color" data-aos="fade-up" data-aos-delay="200">Durante
+                                il mio stage, ho avuto l'opportunità di lavorare alla costruzione del sito web di un
+                                blog crypto chiamato CryptoRed. Il mio ruolo principale è stato concentrato sulla
+                                sezione front-end, dove ho utilizzato un tema Bootstrap come base di partenza. Ho
+                                mantenuto la struttura originale del tema, ma ho apportato significative modifiche sia
+                                alla grafica che al codice per personalizzarlo secondo le esigenze del progetto.
+
+
+                            </p>
+                            <p class="title--color " data-aos="fade-up" data-aos-delay="400">In
+                                particolare, ho:
+
+                                Modificato i pulsanti per renderli più intuitivi e visivamente accattivanti.
+                                Ridimensionato le immagini per garantire una migliore qualità visiva e una corretta
+                                visualizzazione su diversi dispositivi.
+                                Apportato modifiche alla sezione della navbar, aggiungendo nuove voci per migliorare la
+                                navigazione del sito.
+                                Creato un logo originale, rispettando la palette di colori del sito. Per il logo, ho
+                                utilizzato vari tool online come ispirazione e successivamente l'ho perfezionato
+                                utilizzando Adobe Illustrator.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="/assets/cryptored.png" class="img-fluid rounded shadow img-profilo"
+                            alt="Illustrazione">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione 2: Immagine a sinistra, Text a destra -->
+        <section class="bg-light py-5">
+            <div class="container px-5 my-custom-padding">
+                <div class="row gx-5 justify-content-center align-items-center">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1000">
+                        <img src="/assets/cryptored2-.png" class="img-fluid rounded shadow" alt="Illustrazione">
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div data-aos="fade-up" data-aos-delay="800">
+                            <h2 class=" mb-5 "><span class="text-gradient d-inline">Sezione progetti</span>
+                            </h2>
+
+                            <p class=" text-muted">Nella sezione "Progetti" del sito CryptoRed, ho
+                                utilizzato
+                                l'intelligenza artificiale per generare le immagini, in particolare con DALL-E.
+                                Questa
+                                sezione è dedicata a vari progetti specifici nel mondo delle criptovalute e delle
+                                blockchain.
+
+                                Il sito web è strutturato in due principali categorie:
+
+                                Blog: Dove vengono pubblicate notizie e aggiornamenti riguardanti il settore delle
+                                criptovalute.
+                                Progetti: Una sezione specifica che fornisce spiegazioni dettagliate su diverse
+                                blockchain.
+                                Grazie all'utilizzo di DALL-E, sono riuscito a creare immagini uniche e accattivanti
+                                che
+                                arricchiscono visivamente i contenuti della sezione "Progetti", migliorando
+                                l'esperienza
+                                utente e rendendo le spiegazioni più coinvolgenti.
+
+                                Questo progetto mi ha permesso di esplorare l'integrazione di tecnologie avanzate
+                                come
+                                l'intelligenza artificiale nel web design, migliorando ulteriormente le mie
+                                competenze
+                                nel campo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione 3: Testo a sinistra, Immagine a destra -->
+        <section class="bg-dark py-5">
+            <div class="container px-5 my-custom-padding">
+                <div class="row gx-5 justify-content-center align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div class="text-center my-5">
+                            <h2 class=" mb-5 "><span class="text-gradient d-inline">Sezione blog</span></h2>
+                            <p class=" mb-4 title--color">Nella sezione "Blog" del sito CryptoRed, vengono
+                                pubblicate
+                                tutte le notizie e gli aggiornamenti riguardanti il mondo delle criptovalute. Le
+                                immagini che accompagnano i post sono state generate utilizzando l'intelligenza
+                                artificiale DALL-E, aggiungendo un tocco visivo unico e coinvolgente ai contenuti.
+
+                                Per pubblicare un nuovo articolo, gli amministratori devono accedere all'area
+                                riservata,
+                                progettata per una gestione semplice e sicura dei contenuti.
+
+
+
+                            </p>
+                            <p class=" title--color"> Per scoprire ulteriori post e approfondimenti, gli
+                                utenti possono cliccare sul pulsante
+                                "Scopri altri post", che li guiderà verso una vasta gamma di articoli precedenti e
+                                correlati.
+
+                                Questa sezione è stata sviluppata per fornire informazioni aggiornate e di valore,
+                                garantendo al contempo un'esperienza di lettura piacevole e intuitiva.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1200">
+                        <img src="/assets/cryptored3.png" class="img-fluid rounded shadow"
+                            alt="ASP.NET Core illustrazione">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sezione 2: Immagine a sinistra, Text a destra -->
+        <section class="bg-light py-5">
+            <div class="container px-5 my-custom-padding">
+                <div class="row gx-5 justify-content-center align-items-center">
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1000">
+                        <img src="/assets/cryptored5.png" class="img-fluid rounded shadow" alt="Illustrazione">
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div data-aos="fade-up" data-aos-delay="800">
+                            <h2 class=" mb-5"><span class="text-gradient d-inline">Area amministratore </span>
+                            </h2>
+                            <p class="text-muted">Nell'area amministratore del sito CryptoRed, gli utenti autorizzati
+                                possono gestire diverse funzionalità essenziali per il blog. Questa sezione offre
+                                un'interfaccia intuitiva e potente per:
+
+                                Creare e pubblicare nuovi post per il blog.
+                                Aggiungere e aggiornare contenuti nella sezione "Progetti".
+                                Monitorare il numero di iscritti al blog.
+                                Visualizzare e moderare i commenti lasciati dagli utenti.
+                                Tenere traccia delle pubblicazioni e delle attività recenti.
+                                L'area amministratore è stata progettata per garantire una gestione efficiente e sicura
+                                del sito, permettendo agli amministratori di mantenere il contenuto aggiornato e
+                                coinvolgente per gli utenti.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark py-5">
+            <div class="container px-5 my-custom-padding">
+                <div class="row gx-5 justify-content-center align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div class="text-center my-5">
+                            <h2 class=" mb-5 "><span class="text-gradient d-inline">Iscrizione alla
+                                    newsletter</span></h2>
+                            <p class=" mb-4 title--color">Nella sezione "Newsletter" del sito CryptoRed,
+                                gli utenti possono iscriversi per ricevere aggiornamenti esclusivi e rimanere sempre
+                                informati sulle ultime novità del mondo delle criptovalute. La newsletter è uno
+                                strumento fondamentale per mantenere un contatto diretto con i lettori più interessati e
+                                coinvolti.
+
+                            </p>
+                            <p class="title--color ">Attraverso la newsletter, gli iscritti ricevono:
+
+                                Notizie e aggiornamenti esclusivi che non vengono pubblicati sul blog.
+                                Approfondimenti su progetti specifici e nuove blockchain.
+                                Avvisi tempestivi su eventi, webinar e altre iniziative speciali.
+                                La newsletter serve a tenere traccia delle persone che sono realmente interessate ai
+                                contenuti di CryptoRed, permettendo di creare una community informata e attiva. Inoltre,
+                                rappresenta un canale di comunicazione diretto e privilegiato, che aiuta a fidelizzare
+                                gli utenti e a fornire loro informazioni di valore in modo tempestivo ed efficace.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1200">
+                        <img src="/assets/cryptored10.png" class="img-fluid rounded shadow"
+                            alt="ASP.NET Core illustrazione">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light py-5">
+            <div class="container px-5 my-custom-padding">
+                <div class="row gx-5 justify-content-center align-items-center">
+                    <div class="col-md-6 text-center">
+                        <div class="text-center my-5">
+                            <h2 class=" mb-5"><span class="text-gradient d-inline">Iscrizione al sito
+                                    web</span></h2>
+                            <p class="text-muted mb-4">Per commentare nella sezione "Blog" del sito CryptoRed, è
+                                necessario essere iscritti. Ogni utente può accedere utilizzando la propria email e
+                                password, ottenendo così la possibilità di partecipare attivamente alle discussioni
+                                attraverso i commenti.
+
+                                Ho sviluppato la grafica e implementato le funzionalità che consentono agli utenti di:
+
+                                Registrarsi e creare un account personale.
+                                Effettuare il login in modo sicuro.
+                                Lasciare commenti sui post del blog, contribuendo a discussioni e confronti costruttivi.
+                                Questo sistema di commenti migliora l'interazione tra gli utenti e crea una community
+                                attiva e coinvolta, dove tutti possono condividere opinioni e approfondimenti sul mondo
+                                delle criptovalute.</p>
+                            <p class="text-muted">Ho sviluppato la grafica e implementato le funzionalità che consentono
+                                agli utenti di:
+
+                                Registrarsi e creare un account personale.
+                                Effettuare il login in modo sicuro.
+                                Lasciare commenti sui post del blog, contribuendo a discussioni e confronti costruttivi.
+                                Questo sistema di commenti migliora l'interazione tra gli utenti e crea una community
+                                attiva e coinvolta, dove tutti possono condividere opinioni e approfondimenti sul mondo
+                                delle criptovalute.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="1200">
+                        <img src="/assets/cryptored4.png" class="img-fluid rounded shadow"
+                            alt="ASP.NET Core illustrazione">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="link-container">
+            <a href="https://www.cryptored.it/" class="stylish-link">Visita CryptoRed</a>
+        </div>
+
+    </main>

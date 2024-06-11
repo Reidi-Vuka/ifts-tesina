@@ -1,0 +1,151 @@
+@{
+    Layout = "_Layout";
+}
+
+<main class="flex-shrink-0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary text-gradient" asp-controller="Home" asp-action="Index">Full
+                Stack Designer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active text-white" asp-controller="Home"
+                            asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Pianodistudio">Piano di studio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Tecnologie">Tecnologie</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                            asp-action="Progetti">Progetti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container mt-5">
+        <h3 class="display-5 fw-bolder mt-5 text-center"><span class="text-gradient d-inline">Servizi e
+                Tecnologie dell'azienda</span></h3>
+        <h3 class="text-gradient text-center fw-bolder mb-5">Scopriamo insieme</h3>
+        <!-- Cards for each section -->
+        <div class="card mb-4 shadow">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/aspnet-9.png" class="img-fluid rounded-start" alt="ASP.NET Core illustrazione">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title text-gradient">Vantaggi di ASP.NET Core e Bootstrap</h3>
+                        <p class="card-text">ASP.NET Core è un framework open-source per la costruzione di applicazioni
+                            web moderne, sviluppato da Microsoft. Offre prestazioni elevate e flessibilità di hosting,
+                            rendendolo ideale per sviluppare da semplici siti web a complesse applicazioni enterprise.
+                        </p>
+                        <p class="card-text">Dal lancio, ASP.NET Core ha rivoluzionato lo sviluppo web con la sua
+                            architettura modulare e leggera, supportando pienamente sia sviluppi MVC che Razor Pages.
+                        </p>
+                        <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="ASPnet" role="button">Scopri
+                            di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/boot.webp" class="img-fluid rounded-start" alt="Bootstrap illustrazione">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title text-gradient">Bootstrap</h3>
+                        <p class="card-text">Bootstrap, uno dei framework front-end più popolari, è essenziale per
+                            creare interfacce web responsive e attraenti. Facilita enormemente lo sviluppo frontend,
+                            fornendo elementi di design e layout pre-costruiti che sono pronti all'uso e
+                            personalizzabili.</p>
+                        <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="Bootstrap"
+                            role="button">Scopri di più</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/ubu.webp" class="img-fluid rounded-start" alt="Ubuntu illustrazione">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title text-gradient">Ubuntu</h3>
+                        <p class="card-text">Ubuntu Linux è una piattaforma aperta ampiamente utilizzata in ambienti
+                            server, desktop e IoT. La sua facilità di utilizzo e la vasta comunità di supporto la
+                            rendono una scelta popolare per sviluppatori e amministratori di sistema.</p>
+                        <p class="card-text">Ubuntu offre una solida base per eseguire server ASP.NET Core, garantendo
+                            stabilità, sicurezza e accesso a software e strumenti aggiornati.</p>
+                        <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="Ubuntu" role="button">Scopri
+                            di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/folezilla2.webp" class="img-fluid rounded-start" alt="FileZilla illustrazione">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title text-gradient">FileZilla</h3>
+                        <p class="card-text">FileZilla è un software FTP multipiattaforma libero e gratuito. Esso
+                            include FileZilla Client, utilizzato per trasferire file tra il tuo computer locale e un
+                            server remoto tramite protocollo FTP, SFTP o FTPS.</p>
+                        <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="FileZilla"
+                            role="button">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/alwaysdata.png" class="img-fluid rounded-start" alt="Alwaysdata illustrazione">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title text-gradient">Alwaysdata</h3>
+                        <p class="card-text">Alwaysdata è un servizio di hosting che semplifica la gestione delle tue
+                            applicazioni. Offre un’interfaccia intuitiva per automatizzare i processi di distribuzione,
+                            rimuovendo gli ostacoli legati all’amministrazione di sistema e al DevOps.</p>
+                        <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="Alwaysdata"
+                            role="button">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/git-7.png" class="img-fluid rounded-start" alt="GitHub illustrazione">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title text-gradient">GitHub</h3>
+                        <p class="card-text">GitHub è un’azienda a scopo di lucro che offre un servizio di hosting di
+                            repository Git basato su cloud. In sostanza, rende molto più facile per individui e team
+                            utilizzare Git per il controllo delle versioni e la collaborazione.</p>
+                        <a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="Github" role="button">Scopri
+                            di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

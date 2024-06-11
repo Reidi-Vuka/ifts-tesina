@@ -1,0 +1,163 @@
+@{
+    Layout = "_Layout";
+}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary text-gradient" asp-controller="Home" asp-action="Index">Full
+            Stack Designer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active text-white" asp-controller="Home"
+                        asp-action="Index">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                        asp-action="Pianodistudio">Piano di studio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                        asp-action="Tecnologie">Tecnologie</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Home"
+                        asp-action="Progetti">Progetti</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="container">
+        <!-- Intestazione della pagina -->
+        <header class="my-4">
+            <h2 class="display-5 fw-bolder mb-3 mt-3"><span class="text-gradient d-inline">Scopriamo ASP.NET Core
+                    8</span>
+            </h2>
+        </header>
+
+        <!-- Contenuto principale -->
+        <div class="row">
+            <!-- Colonna del contenuto principale -->
+            <div class="col-md-8">
+                <article>
+                    <h2 class="text-gradient">Cos'è ASP.NET Core 8?</h2>
+                    <p class="text-gradient">ASP.NET Core è un framework open-source per la costruzione di applicazioni
+                        web moderne, basate
+                        sul cloud e connesse a Internet. Sviluppato da Microsoft, rappresenta l'evoluzione di ASP.NET e
+                        offre un'architettura modulare e leggera che può essere eseguita sia su Windows sia su sistemi
+                        Linux e macOS. Grazie alla sua flessibilità, ASP.NET Core permette agli sviluppatori di creare
+                        applicazioni web e servizi API in modo efficiente.</p>
+                    <img src="/assets/asp-1.png" alt="Immagine di ASP.NET" class="img-fluid mb-3">
+                    <h5 class="text-gradient mb-5 mt-5">Qui potrai scoprire come utilizzare ASP.NET Core per creare
+                        applicazioni
+                        robuste e scalabili.</h5>
+                    <div class="container mt-4">
+
+
+                    </div>
+                    <!-- Inserisci qui altri paragrafi o sezioni -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card mb-3">
+                                    <img src="/assets/razor.png" class="card-img-top" alt="Image Description 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-gradient">WEb Pages</h5>
+                                        <p class="card-text">
+                                        <p><span class="fw-bold">ASP.NET Core Razor</span> è un framework versatile per
+                                            lo sviluppo di applicazioni web dinamiche che integrano HTML e C# in
+                                            un'unica sintassi fluida. Offre <span class="fw-bold">componenti Razor
+                                                riutilizzabili</span> che migliorano la manutenzione del codice e la
+                                            produttività. Razor è completamente <span
+                                                class="fw-bold">cross-platform</span>, compatibile con Windows, Linux e
+                                            macOS, e può essere integrato con <span class="fw-bold">ASP.NET Core
+                                                MVC</span> per una struttura robusta di modello, vista e controller. Il
+                                            framework esegue il <span class="fw-bold">rendering lato server</span>,
+                                            ottimizzando le prestazioni e la velocità di caricamento. Supporta anche la
+                                            costruzione di <span class="fw-bold">API web</span>, aumentando la
+                                            versatilità per lo sviluppo backend. Le funzionalità di <span
+                                                class="fw-bold">sicurezza</span> integrate proteggono contro attacchi
+                                            comuni come XSS e CSRF, rendendo ASP.NET Core Razor una scelta eccellente
+                                            per applicazioni web moderne e sicure.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card mb-3">
+                                    <img src="/assets/asp-2.png" class="card-img-top" alt="Image Description 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-gradient">Servizi offerti da ASP.NET Core 8</h5>
+                                        <p><span class="fw-bold">ASP.NET Core 8</span> offre una vasta gamma di servizi
+                                            che lo rendono un framework potente per lo sviluppo di applicazioni web e
+                                            API. Supporta lo sviluppo di <span class="fw-bold">applicazioni web
+                                                moderne</span> attraverso Razor Pages e MVC, fornendo strumenti per la
+                                            creazione di interfacce utente dinamiche e responsive. Gli sviluppatori
+                                            possono sfruttare il <span class="fw-bold">blazor</span> per costruire
+                                            applicazioni in stile single-page usando C# anziché JavaScript. Il framework
+                                            include potenti opzioni per lo sviluppo di <span class="fw-bold">API
+                                                RESTful</span>, facilitando l'implementazione di back-end robusti e
+                                            scalabili. ASP.NET Core 8 migliora anche la <span
+                                                class="fw-bold">sicurezza</span>, offrendo funzioni avanzate per la
+                                            gestione dell'autenticazione e della protezione dei dati. Con il supporto
+                                            per il <span class="fw-bold">cloud</span>, gli sviluppatori possono
+                                            facilmente distribuire e gestire le loro applicazioni in ambienti cloud come
+                                            Azure.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card mb-3">
+                                    <img src="/assets/aspnet-10.jpg" class="card-img-top" alt="Image Description 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-gradient">Prestazioni di ASP.NET Core</h5>
+                                        <p>Le <span class="fw-bold">prestazioni di ASP.NET Core 8</span> sono
+                                            notevolmente ottimizzate per soddisfare le esigenze delle applicazioni web
+                                            moderne. Grazie alla sua architettura leggera e modulare, ASP.NET Core 8
+                                            offre tempi di risposta rapidi e una <span class="fw-bold">scalabilità
+                                                efficiente</span>, sia in ambienti locali che cloud. Il framework
+                                            utilizza <span class="fw-bold">Kestrel</span>, un server web ultra-veloce,
+                                            che contribuisce a migliorare ulteriormente le prestazioni di elaborazione
+                                            delle richieste. ASP.NET Core 8 supporta anche funzionalità asincrone
+                                            complete, che minimizzano i colli di bottiglia nelle operazioni I/O,
+                                            ottimizzando l'uso delle risorse del server. Queste caratteristiche rendono
+                                            ASP.NET Core 8 una scelta eccellente per sviluppatori che cercano un
+                                            framework performante e affidabile per costruire applicazioni web ad alte
+                                            prestazioni.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="card mb-3">
+                            <img src="/assets/controller-1.png" class="card-img-top" alt="Image Description 4">
+                            <div class="card-body">
+                                <h5 class="card-title text-gradient">Controller</h5>
+                                <p class="card-text">Layouts e Partials
+                                    Razor supporta l'uso di layouts e partial views, che aiutano a ridurre la
+                                    duplicazione del codice e a mantenere l'applicazione organizzata. I layout
+                                    possono definire un template di base o una struttura di pagina comune,
+                                    mentre le viste parziali possono essere utilizzate per incapsulare parti
+                                    riutilizzabili dell'interfaccia utente. Questo è particolarmente utile per
+                                    creare una consistenza visiva e funzionale attraverso
+                                    l'applicazione.Integrazione con altre tecnologie
+                                    Razor si integra senza problemi con altre tecnologie e framework, come
+                                    JavaScript, CSS, e vari libri di jQuery, Angular, o React. Questo permette
+                                    agli sviluppatori di sfruttare al meglio</p>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        </article>
+    </div>
+
+
+
+
+</body>
