@@ -223,3 +223,27 @@ p, .p-text {
     -webkit-text-fill-color: transparent;
 }
 
+.link-container {
+    background-color: #555;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.link-container:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+.custom-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.custom-link:hover, .custom-link:focus {
+    color: #f7f7f7;
+    text-decoration: none;
+}
