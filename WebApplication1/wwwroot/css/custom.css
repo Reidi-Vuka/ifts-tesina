@@ -197,3 +197,29 @@ p, .p-text {
 .color--black {
     color: #1e1e1e;
 }
+
+.color--text {
+    color: white;
+}
+
+.custom-card {
+    background-color: #333;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.custom-card .card-title,
+.custom-card .card-text {
+    color: rgb(255, 255, 255);
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #6a82fb, #fc5c7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
